@@ -1,3 +1,5 @@
+// Converting from number to string
+
 let score = "33"
 
 //console.log(typeof (score));
@@ -13,7 +15,9 @@ let valueInNumberBe = Number(score)
 //  true => 1; false => 0
 
 
-let ThePersonIsLoggedIn = "true"
+// Converting from Number to Boolean 
+
+let ThePersonIsLoggedIn = "1"
 let TheBooleanIsLoggedIn = Boolean(ThePersonIsLoggedIn) 
 //console.log(TheBooleanIsLoggedIn);
 
@@ -21,7 +25,22 @@ let TheBooleanIsLoggedIn = Boolean(ThePersonIsLoggedIn)
 // "" => false
 // "hitesh" => true
 
+
+// Converting Number to String
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(typeof stringNumber);
-console.log(stringNumber);
+// console.log(typeof stringNumber);
+// console.log(stringNumber);
+
+//Converting Boolean to number 
+
+let userLoggedIn = true
+console.log(typeof userLoggedIn);
+let booleanInNumberBe = Number(userLoggedIn)
+console.log(typeof booleanInNumberBe);
+console.log(booleanInNumberBe);
+
+
+//"Aditya" => NaN
+//true => 1
+//false => 0
